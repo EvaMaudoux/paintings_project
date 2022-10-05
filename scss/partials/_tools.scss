@@ -1,0 +1,35 @@
+
+@import 'variables';
+
+// Mixins
+
+
+.btn {
+  padding: 0.6rem 1rem;
+  font-family: $primary-typo;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: $radius;
+  margin: 1rem 0 2rem 0;
+  background-color: $secondary-color;
+  border: none;
+  &:hover {
+    background-color: darken($secondary-color, 10%);
+  }
+  @media #{$tablet} {
+    font-size: 1.3rem;
+    margin: 2rem 0;
+  }
+}
+
+.souligne {
+  background-color: $secondary-color;
+  content: " ";
+  display: block;
+  margin: 5px auto 0;
+  height: 2px;
+  width: 40px;
+}
+
