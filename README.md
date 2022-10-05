@@ -1,2 +1,2 @@
 # projetSiteStatique
-examen HTML-CSS site perso
+examen HTML-CSS 1er site perso responsive
